@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="sweetalert2.min.css">
+	<script src="sweetalert2.all.js"></script>	
+</head>
+<body>
+	
+	<button onclick="sweet()">D</button>
+	<script>
+		function sweet() {
+			// body...
+			Swal.fire({
+				position: 'center',
+				title: 'Your work has been saved',
+				showConfirmButton: false,
+				timer: 1500,
+				type: 'success'
+			})
+		}
+	</script>
+
+</body>
+</html>
