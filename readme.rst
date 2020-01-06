@@ -10,17 +10,17 @@ serta cepat dalam pengembangannya
 Fitur dalam materi ini
 *******************
 
-Model
-Controller
-View
-CRUD Database
-Redirect URL
-Session Flash
-Session
-Form Validation
-Templates Bootstraps
-Register User
-Login User
+- Model
+- Controller
+- View
+- CRUD Database
+- Redirect URL
+- Session Flash
+- Session
+- Form Validation
+- Templates Bootstraps
+- Register User
+- Login User
 
 *******************
 Server Requirements
