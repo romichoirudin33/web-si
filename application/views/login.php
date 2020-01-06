@@ -8,43 +8,43 @@
 
 	<style>
 
-	body {
-		background-color: #483D8B;
-	}
+		body {
+			background-color: #483D8B;
+		}
 
-	.login-box {
+		.login-box {
 
-		width: 100%;
-		height: 400px;
-		background-color: #fff;
-		margin-top: 100px;
-		box-shadow: 10px 10px 10px rgba(1,1,1,0.7);
-		border-radius: 10px;
-	}
+			width: 100%;
+			height: 400px;
+			background-color: #fff;
+			margin-top: 100px;
+			box-shadow: 10px 10px 10px rgba(1,1,1,0.7);
+			border-radius: 10px;
+		}
 
-	.title {
-		font-family: 'arial';
-		font-size: 35px;
-		font-weight: 500;
-		text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-	}
+		.title {
+			font-family: 'arial';
+			font-size: 35px;
+			font-weight: 500;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+		}
 
-	.input {
-		border-radius: 20px;
-	}
+		.input {
+			border-radius: 20px;
+		}
 
-	label {
-		margin-left: 15px;
-	}
+		label {
+			margin-left: 15px;
+		}
 
-	.btn-login {
-		border-radius: 10px;
-		background-color: #483D8B;
-		box-shadow: 2px 2px 2px #483D8B;
-	}
+		.btn-login {
+			border-radius: 10px;
+			background-color: #483D8B;
+			box-shadow: 2px 2px 2px #483D8B;
+		}
 
-</style>
-<script src="<?= base_url('assets/SweetAlert2/sweetalert2.all.js') ?>"></script>
+	</style>
+	<script src="<?= base_url('assets/SweetAlert2/sweetalert2.all.js') ?>"></script>
 </head>
 <body>
 
@@ -77,7 +77,7 @@
 					</script>
 					
 				<?php endif ?>
-				<form action="<?= site_url('logincontroller/proses_login') ?>" class="mt-4" method="post">
+				<form action="<?= site_url('LoginController/proses_login') ?>" class="mt-4" method="post">
 					<div class="form-group">
 						<label for="">Username</label>
 						<input type="text" class="form-control input" name="username">
